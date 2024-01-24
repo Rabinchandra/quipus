@@ -14,7 +14,10 @@
 
     h1 {
       margin: 0px 0;
+      // border: 1px solid red;
       margin-bottom: 5px;
+      margin-right: 20px;
+      font-size: 25px;
     }
     h4 {
       margin: 0;
@@ -41,6 +44,30 @@
     .about {
       margin-top: 50px;
       font-weight: 200;
+    }
+
+    .market-status {
+      section {
+        display: flex;
+        overflow: hidden;
+        justify-content: space-between;
+
+        & > div > div {
+          margin-left: 10%;
+          margin-top: -45px;
+        }
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+        width: 300px;
+        li {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 10px;
+        }
+      }
     }
   }
 }

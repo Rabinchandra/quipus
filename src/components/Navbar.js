@@ -6,14 +6,14 @@ function NotHomeNavbar() {
     <div className="not-home">
       <div className="back">
         <Link to="/">
-          <i class="fi fi-rr-angle-left"></i>
+          <i className="fi fi-rr-angle-left"></i>
           <span>Stocks</span>
         </Link>
       </div>
       <section>
         <div className="add-favorite">
           <span>Add to Favorites</span>
-          <i class="fi fi-rr-heart"></i>
+          <i className="fi fi-rr-heart"></i>
         </div>
         <div className="profile"></div>
       </section>

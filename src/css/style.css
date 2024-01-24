@@ -27,6 +27,8 @@ body {
 .company header h1 {
   margin: 0px 0;
   margin-bottom: 5px;
+  margin-right: 20px;
+  font-size: 25px;
 }
 .company header h4 {
   margin: 0;
@@ -51,6 +53,25 @@ body {
 .company main .about {
   margin-top: 50px;
   font-weight: 200;
+}
+.company main .market-status section {
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+}
+.company main .market-status section > div > div {
+  margin-left: 10%;
+  margin-top: -45px;
+}
+.company main .market-status ul {
+  list-style: none;
+  padding: 0;
+  width: 300px;
+}
+.company main .market-status ul li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
 }
 
 .navbar {
@@ -169,6 +190,39 @@ body {
 .home .filter section > span {
   display: inline-block;
   margin-bottom: 10px;
+}
+.home .company-list {
+  max-width: 1000px;
+  margin: 3em auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.home .company-list .company-item {
+  cursor: pointer;
+  padding: 2em;
+  width: 280px;
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 0 10px 2px rgba(221, 221, 221, 0.4);
+  transition: 0.3s;
+}
+.home .company-list .company-item:hover {
+  box-shadow: 0px 0 10px 2px rgba(221, 221, 221, 0.8);
+  transform: scale(1.05);
+}
+.home .company-list .company-item .image {
+  width: 100%;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.home .company-list .company-item h3 {
+  color: #333;
+}
+.home .company-list .company-item small {
+  font-weight: 200;
+  color: #888;
 }
 
 .growth {
