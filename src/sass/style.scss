@@ -1,0 +1,36 @@
+@import url("https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-rounded/css/uicons-regular-rounded.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(254, 254, 254, 0.086);
+}
+
+* {
+  font-family: "Poppins", "Times New Roman", Times, serif;
+  box-sizing: border-box;
+}
+
+@import "company";
+@import "navbar";
+@import "home";
+
+.growth {
+  color: rgb(39, 228, 10);
+}
+
+.sub-text {
+  color: rgb(202, 199, 199);
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.mb-5 {
+  margin-bottom: 5px !important;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

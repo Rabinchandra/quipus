@@ -1,0 +1,46 @@
+.company {
+  max-width: 800px;
+  margin: 3em auto;
+  padding: 0 1.5em;
+
+  header {
+    // border: 1px solid red;
+    color: #fff;
+    background-color: black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 2em;
+
+    h1 {
+      margin: 0px 0;
+      margin-bottom: 5px;
+    }
+    h4 {
+      margin: 0;
+    }
+
+    small {
+      display: block;
+      margin: 0;
+    }
+    .growth {
+      font-size: 16px;
+    }
+
+    img {
+      display: block;
+    }
+  }
+  main {
+    padding: 0 5px;
+    .graph {
+      margin-top: 30px;
+    }
+    .market-status,
+    .about {
+      margin-top: 50px;
+      font-weight: 200;
+    }
+  }
+}
