@@ -1,0 +1,111 @@
+.chatbot {
+  display: none;
+  display: block;
+  z-index: 10000;
+  .button {
+    cursor: pointer;
+    // border: 1px solid blue;
+    background-color: rgb(58, 134, 233);
+    box-shadow: 5px 0 15px 2px rgba(169, 167, 167, 0.4);
+
+    color: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 5%;
+    right: 7%;
+    z-index: 10;
+  }
+
+  .chat-box {
+    width: 400px;
+    // border: 1px solid blue;
+    position: fixed;
+    bottom: 5%;
+    right: 7%;
+    z-index: 10;
+    background-color: #fff;
+    box-shadow: 5px 0 15px 2px rgba(169, 167, 167, 0.4);
+
+    header {
+      //   border: 2px solid red;
+      display: flex;
+      background-color: #2f89d7;
+      align-items: center;
+      color: #fff;
+      padding: 0.5em;
+      img {
+        width: 30px;
+        margin-right: 10px;
+      }
+    }
+
+    .chat {
+      position: relative;
+      height: 500px;
+      padding: 0.5em;
+      overflow: scroll;
+      padding-bottom: 2em;
+
+      .ai,
+      .user {
+        // border: 1px solid blue;
+        padding: 5px;
+        height: auto;
+        position: relative;
+      }
+
+      .ai div,
+      .user div {
+        // background-color: #ebebeb;
+        // position: absolute;
+        display: block;
+        padding: 7px;
+        top: 0;
+      }
+
+      .ai {
+        margin-bottom: 2px;
+        background-color: #f5f3f3;
+      }
+
+      .user {
+        margin-top: 10px;
+        right: 0;
+        background-color: rgb(105, 150, 255);
+        color: #fff;
+        position: sticky;
+        // display: inline;
+      }
+
+      .options {
+        display: flex;
+        // border: 2px solid red;
+
+        .option {
+          padding: 5px 10px;
+          margin: 2px;
+          background-color: #f5f3f3;
+          cursor: pointer;
+          &:hover {
+            background-color: #ebebeb;
+          }
+        }
+      }
+
+      .input {
+        position: fixed;
+        bottom: 5%;
+        width: 290px;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        // left: 0;
+      }
+    }
+  }
+}

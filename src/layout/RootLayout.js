@@ -9,6 +9,7 @@ import {
   suggestInvestment,
 } from "../utilities/utilities";
 import { CompanyContext } from "../context_api/companyContext";
+import Chatbot from "../components/Chatbot";
 
 function RootLayout() {
   const location = useLocation();
@@ -25,6 +26,7 @@ function RootLayout() {
   return (
     <>
       <Navbar />
+      <Chatbot />
       {location.pathname === "/" ? <Home /> : <Outlet />}
     </>
   );
